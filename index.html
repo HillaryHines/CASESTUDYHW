@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
@@ -30,24 +31,26 @@
         <p class="lead">Frolic! is a mobile app that allows travelers to make informed decisions about countries, cities and stays to enjoy while remaining as safe as possible in the Covid pandemic.</p>
         <hr class="my-4">  
       </div>
+      <div class="heading"><h1 id="researchHeading">RESEARCH</h1></div>
+
       <div class="card-group">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./Images/question.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Hypothesis</h5>
             <p class="card-text">The Covid-19 pandemic has a major impact on the travel experience because of all the restrictions and travel protocols. Travelers will also be concerned for their health and well-being.</p>
           </div>
         </div>
-        <!-- This is the Research Section. Used Bootstrap Grouped Card component -->
+        <!-- This is the Research INTRO Section. Used Bootstrap Grouped Card component -->
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./Images/nadine.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Protopersona</h5>
             <p class="card-text">Nadine Saunders is a 36 year old executive who looks forward to her annual vacations. She loves to plan in order to have the best vacations for her with as little setbacks as possible.</p>
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./Images/research objectives.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Research Objectives</h5>
             <p class="card-text">
@@ -56,6 +59,130 @@
                  What information does she need prior to travel and why?</p>
           </div>
         </div>
+        <!-- This is the Research Methods section. Used 4 card component from Bootstrap -->
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./Images/Interview.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Data Gathering Methods</h5>
+                  <p class="card-text">Qualititative data gathered from 5 semi-structured interviews, quantitative data gathered from surveys.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./Images/new affinity.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Data Synthesis Step 1</h5>
+                  <p class="card-text">Affinity Diagrams</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./Images/persona.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Data Synthesis Step 2</h5>
+                  <p class="card-text">User Persona Creation: Dr. Maria Taylor</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./Images/empathy map.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Data Synthesis Step 3</h5>
+                  <p class="card-text">Empathy Mapping</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- This is the Problem Section. used Bootstrap's 2 card component -->
+          <div class="heading"><h1 id="problemHeading">PROBLEM</h1></div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">User Insight</h5>
+                  <p class="card-text">Maria’s health is very important to her because she has a zest for life and wants to enjoy it with her loved ones to the fullest therefore she needs to be able to make decisions that maintain her and her loved ones’ safety whilst still partaking in enjoyable experiences.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Problem Statement</h5>
+                  <p class="card-text">Current travel resources do not allow Maria to efficiently compare stays and experiences as it relates to their Covid safety measures. As a result, Maria feels apprehensive about choosing her travel experiences because she does not want herself or her loved ones to become ill.</p>
+             
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Used Jumbotron from Bootstrap for Prototyping Section -->
+<div class="jumbotron">
+    <h1 class="display-4">Solution</h1>
+    <p class="lead">A mobile platform that gives users information about Covid-19 for whichever location they desire. This information includes travel requirements, Covid-19 protocols, other traveler ratings of how Covid-safe stays are, and number of infections in the area.</p>
+    <hr class="my-4">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Experience Prototype</a>
+  </div>
+  <!-- Used col component from Bootstrap for User Testing Results -->
+  <div class="container">
+    <div class="row">
+      <div class="col" class= "colHeading">Task</div>
+      <div class="col" class= "colHeading">Success Rate</div>
+      <div class="w-100"></div>
+      <div class="col">Sign Up</div>
+      <div class="col">80%</div>
+      <div class="w-100"></div>
+      <div class="col">Search and Book a Stay</div>
+      <div class="col">80%</div>
+      <div class="w-100"></div>
+      <div class="col">Understands the Covid status for stay</div>
+      <div class="col">0%</div>
+    </div>
+  </div>
+  <!-- Used Card component from Bootstrap for Iterations -->
+  <div class="heading"><h1 id="iterationHeading">ITERATIONS</h1></div>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="./Images/2 Onboarding 1.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Onboarding Iteration</h5>
+        <p class="card-text">Emphasized Covid-safety aspect of app during the onboarding process. Emphasized ratings on cleanliness, mask wearing as well as up to date Covid data on these locations.</p>
       </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="./Images/Coral Reef Villa 1.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Guest Ratings</h5>
+        <p class="card-text">Expanded guest ratings from standard room, food to include Covid safety protocols. Guests can view and/or make ratings on hand-washing, mask wearing, sanitization, and social distancing.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="./Images/1 Filters & Search 1.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Covid Resources</h5>
+        <p class="card-text">Added hyperlinks to the locale's official health websites on every page to ensure up-to-date information on Covid burden in the area. Emphasized this feature with bold text, bright colours, and underlining.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Used Col feature from Bootstrap to showcase final user testing results -->
+  <div class="heading"><h1 id="iterationHeading">User Testing of Iteration</h1></div>
+  <div class="container">
+    <div class="row">
+      <div class="col" class= "colHeading">Task</div>
+      <div class="col" class= "colHeading">Success Rate</div>
+      <div class="w-100"></div>
+      <div class="col">Sign Up</div>
+      <div class="col">90%</div>
+      <div class="w-100"></div>
+      <div class="col">Search and Book a Stay</div>
+      <div class="col">85%</div>
+      <div class="w-100"></div>
+      <div class="col">Understands the Covid status for stay</div>
+      <div class="col">85%</div>
+    </div>
+  </div>
 </html>
 
